@@ -148,7 +148,7 @@
 #ifdef LIBFFI_ASM
 #define FFI_HIDDEN(name) .hidden name
 #else
-#define FFI_HIDDEN __attribute__ ((visibility ("hidden")))
+#define FFI_HIDDEN __attribute__((visibility ("hidden")))
 #endif
 #else
 #ifdef LIBFFI_ASM
